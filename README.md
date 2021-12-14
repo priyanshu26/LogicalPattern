@@ -12,7 +12,7 @@ class Demo
 		int u = sc.nextInt();
 		int l=u;
 		//for upper star
-		for (int i=1;i<=u-1;i++)
+		for (int i=1;i<=u;i++)
 		{
 			for (int k=(l-i-1);k>=0;k--)
 			{
@@ -28,3 +28,4 @@ class Demo
 	}
 }
 ```
+<img width="217" alt="DemoClasshalf" src="https://user-images.githubusercontent.com/79014731/146033697-6374001b-5c50-4e9b-91eb-cf21544fa7c6.png">
