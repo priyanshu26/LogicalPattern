@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 class Demo 
 {
@@ -36,3 +37,20 @@ class Demo
 		}
 	}
 }
+
+
+/*
+OUTPUT--
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
+  * * * *
+    * * *
+      * *
+        *
+*/
+
+
+
