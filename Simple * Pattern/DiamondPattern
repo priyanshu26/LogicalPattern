@@ -1,5 +1,6 @@
 /**
 *this is code for print diamond pattern using java language
+*it will give output as user will give input.
 */
 
 
@@ -54,7 +55,7 @@ class PatternPractise
 }
 
 /*
-output---
+output--------
 
 
           *
@@ -69,5 +70,5 @@ output---
         * * *
           *
 
------
+--------------
 */
