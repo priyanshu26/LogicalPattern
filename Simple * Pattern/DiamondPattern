@@ -1,0 +1,73 @@
+/**
+*this is code for print diamond pattern using java language
+*/
+
+
+import java.util.Scanner;
+class PatternPractise
+{
+	public static void main(String[] args) 
+	{
+		
+		int ui, cip;
+		Scanner sc;
+		sc = new Scanner(System.in);
+
+		System.out.print("Enter value :");
+		ui= sc.nextInt();
+		cip = (ui*2)-1;
+		
+		for (int i=cip;i>=1;i--)
+		{
+			if(i%2!=0){
+				for (int j=1;j<=(i/2);j++)
+				{
+					System.out.print("  ");
+				}
+				for (int k=1;k<=(cip-(i/2)*2);k++)
+				{
+					
+					System.out.print("*"+" ");
+
+				}
+				System.out.println();
+			}
+		}
+
+		for (int i=1;i<=(cip-2);i++)
+		{
+			if(i%2!=0){
+				for (int j=(i/2)+1;j>=1;j--)
+				{
+					System.out.print("  ");
+				}
+				for (int k=(cip-(i/2)*2)-2;k>=1;k--)
+				{
+					
+					System.out.print("*"+" ");
+				}
+				System.out.println();
+			}
+		}
+
+	}
+}
+
+/*
+output---
+
+
+          *
+        * * *
+      * * * * *
+    * * * * * * *
+  * * * * * * * * *
+* * * * * * * * * * *
+  * * * * * * * * *
+    * * * * * * *
+      * * * * *
+        * * *
+          *
+
+-----
+*/
